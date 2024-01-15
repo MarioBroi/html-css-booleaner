@@ -24,20 +24,21 @@
     color: #4ea0ff;
 }
 
+h1{
+    margin-bottom: 0%;
+}
+
 h3{
    display: inline;
 }
 
-th{
-    text-align: left;
-}
+/* /header */
 
 table{
     border-collapse: collapse;
-}
-
-.hg{
-    background-color: rgba(255, 255, 0, 100);
+    table-layout: auto;
+    width: 100%;
+    text-align: left;
 }
 
 thead{
@@ -45,9 +46,21 @@ thead{
     color: white;
 }
 
+td{
+    width: 1vh;  
+}
+
 .tblue{
     background-color: #b1e5f2;
 }
+
+/* /table */
+
+.hg{
+    background-color: rgba(255, 255, 0, 100);
+}
+
+/* /highlight */
 
 #img1{
     background-image: url(monitor.jpg);
@@ -66,3 +79,5 @@ thead{
     color: white;
     font-size: 150%;
 }
+
+/* /footer */
