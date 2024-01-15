@@ -38,10 +38,27 @@ th{
 
 thead{
     background-color: #20a9e5;
-    border: none;
+    color: white;
 }
 
 .tblue{
     background-color: #b1e5f2;
 }
 
+#img1{
+    background-image: url(monitor.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 18vh;
+    color: white;
+    font-size: 150%;
+}
+
+#img2{
+    background-image: url(graph.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 18vh;
+    color: white;
+    font-size: 150%;
+}
