@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(pattern.png);
 }
 
 #azzurro{
@@ -12,4 +13,21 @@
 
 h3{
    display: inline;
+}
+
+th{
+    text-align: left;
+}
+
+.hg{
+    background-color: rgba(255, 255, 0, 100);
+}
+
+thead{
+    background-color: #20a9e5;
+    border: none;
+}
+
+.tblue{
+    background-color: #b1e5f2;
 }
